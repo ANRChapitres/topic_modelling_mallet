@@ -12,12 +12,10 @@ bin/mallet import-dir --input your/path/to/your/txt/files/ --output /tmp/topic-i
 bin/mallet train-topics --input /tmp/topic-input-doc.mallet --num-topics 20 --output-doc-topics /tmp/doc-topics-doc.txt --output-topic-keys /tmp/topic-keys-doc.txt --random-seed 1
 ```
 ### Using Mallet 2.0.8 (the older version does not contain the LabeledLDA function), from your mallet installation directory (after having used the preprocessing script putting all files into one and having decided the labels you wanted):
-<br/>
 ```
 bin/mallet import-file --input doc.txt --output doc.seq --stoplist-file stopwords.txt --label-as-features --keep-sequence --line-regex '([^\t]+)\t([^\t]+)\t(.*)'
 bin/mallet run cc.mallet.topics.LabeledLDA --input doc.seq --output-topic-keys doc-llda.keys --output-doc-topics doc-llda-doc-topics.txt --random-seed 1
 ```
-<br/>
 Once you have run this, put either the topic-keys-doc.txt (for LDA) or the doc-llda-doc-topics.txt (for LLDA) in the LDA or the LLDA ipynb scripts.
 
 
