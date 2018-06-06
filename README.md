@@ -9,9 +9,8 @@ For the LLDA, you need to have MALLET (either 7 or 8) installed and pass the res
 If you want to do simple LDA, do this in your terminal :
 ```
 bin/mallet import-dir --input your/path/to/your/txt/files/ --output /tmp/topic-input-doc.mallet --keep-sequence --stoplist-file your/path/to/your/stopword_file.txt
-bin/mallet train-topics --input /tmp/topic-input-DOC.mallet --num-topics 20 --output-doc-topics /tmp/doc-topics-doc.txt --output-topic-keys /tmp/topic-keys-doc.txt --random-seed 1
+bin/mallet train-topics --input /tmp/topic-input-doc.mallet --num-topics 20 --output-doc-topics /tmp/doc-topics-doc.txt --output-topic-keys /tmp/topic-keys-doc.txt --random-seed 1
 ```
-<br/>
 ### Using Mallet 2.0.8 (the older version does not contain the LabeledLDA function), from your mallet installation directory (after having used the preprocessing script putting all files into one and having decided the labels you wanted):
 <br/>
 ```
