@@ -1,11 +1,10 @@
 # LDA and Labeled LDA topic modelling with MALLET in python
-This software is an application of a bunch of python libraries for LDA and LabeledLDA with Gensim and MALLET.
+This software is an application of a bunch of python libraries for **LDA** and **LabeledLDA** with **Gensim** and **MALLET**.
 <br/>
-For the LLDA, you need to have MALLET (either 7 or 8) installed (see here for [installation process on linux](https://de.dariah.eu/tatom/topic_model_mallet.html#topic-model-mallet) and pass the results to the MALLET executable. The repo also includes a script to prepare your data for MALLET, on the basis of TEI files (in our case tagged with [Alix Tagger](https://github.com/ANRChapitres/tagging)).<br/>
-## Once you have made your files ready for MALLET, two cases :<br/>
-### Using Mallet 2.0.7 (easier for data use in python script)
-From your mallet installation directory :<br/>
-If you want to do simple LDA, do this in your terminal :
+For the LLDA, you need to have MALLET (either 7 or 8) installed (see here for [installation process on linux](https://de.dariah.eu/tatom/topic_model_mallet.html#topic-model-mallet)) and pass the results to the MALLET executable. The repo also includes a script to prepare your data for MALLET, on the basis of TEI files (in our case tagged with [Alix Tagger](https://github.com/ANRChapitres/tagging)).<br/>
+## Once you have made your files ready for MALLET :<br/>
+### Using Mallet 2.0.7 (easier for data use in python script, for LDA)
+From your mallet installation directory :
 ```
 bin/mallet import-dir --input your/path/to/your/txt/files/ --output /tmp/topic-input-doc.mallet --keep-sequence --stoplist-file your/path/to/your/stopword_file.txt
 bin/mallet train-topics --input /tmp/topic-input-doc.mallet --num-topics 20 --output-doc-topics /tmp/doc-topics-doc.txt --output-topic-keys /tmp/topic-keys-doc.txt --random-seed 1
