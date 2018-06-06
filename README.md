@@ -1,6 +1,5 @@
 # LDA and Labeled LDA topic modelling with MALLET in python
-<br/>
-This software is an application of a bunch of python libraries for <b>LDA</b> and <b>LabeledLDA</b> with <b>Gensim</b> and <b>MALLET</b>.
+This software is an application of a bunch of python libraries for LDA and LabeledLDA with Gensim and MALLET.
 <br/>
 For the LLDA, you need to have MALLET (either 7 or 8) installed (see here for [installation process on linux](https://de.dariah.eu/tatom/topic_model_mallet.html#topic-model-mallet) and pass the results to the MALLET executable. The repo also includes a script to prepare your data for MALLET, on the basis of TEI files (in our case tagged with [Alix Tagger](https://github.com/ANRChapitres/tagging)).<br/>
 ## Once you have made your files ready for MALLET, two cases :<br/>
