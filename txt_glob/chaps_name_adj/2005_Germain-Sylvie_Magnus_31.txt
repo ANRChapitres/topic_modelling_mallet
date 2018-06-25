@@ -1,1 +1,1 @@
-sequence double attente 
+sequence double attente etoile regard niveau temps tour etoile 

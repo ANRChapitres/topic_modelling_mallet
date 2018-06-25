@@ -1,0 +1,4 @@
+0	12,5	donner croire trouver repondre demander prendre connaitre aimer falloir recevoir reprendre devenir permettre ajouter presenter apprendre comprendre agir offrir 
+1	12,5	passer prendre falloir poser tirer commencer tourner tomber sentir retrouver decouvrir ouvrir finir trouver sortir devenir descendre lancer attendre 
+2	12,5	demander prendre regarder passer aimer falloir penser croire trouver donner entendre attendre arriver connaitre rire comprendre revenir sortir entrer 
+3	12,5	entendre repondre jeter reprendre tomber arreter mourir prendre ecrier murmurer crier arriver passer ouvrir tuer frapper sortir porter pousser 
